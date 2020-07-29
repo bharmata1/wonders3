@@ -1,0 +1,218 @@
+h1 {
+    font-size: 100px;
+    color: red;
+    text-align: center;
+}
+
+h2 {
+    font-size: 50px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 50px;
+    text-align: center;
+}
+
+h4 {
+    font-size: 50px;
+    text-align: center;
+}
+
+h5 {
+    font-size: 50px;
+    text-align: center;
+}
+
+h6 {
+    font-size: 50px;
+    text-align: center;
+}
+
+h7 {
+    font-size: 50px;
+    text-align: center;
+}
+
+h8 {
+    font-size: 50px;
+    text-align: center;
+}
+.divone {
+    color: white;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    border-style: double;
+    border-color: darkgreen;
+    border-radius: 5em;
+    background-image: url(http://ca22aaf17031d9545408-4be5168becc3a2fdaddb0da926662127.r47.cf1.rackcdn.com/24/3/large.jpg);
+    background-size: cover;
+    background-position: center;
+    outline-width: 5em;
+}
+
+.divtwo {
+    grid-column-start: 4;
+    grid-column-end: 6;
+    background-image: url(http://1.bp.blogspot.com/-BJ2FJQgCJZE/TwKUMpFi7xI/AAAAAAAAA6A/qCCrOkSKQDI/s1600/brazil-wallpaper-hd-7-774095.jpg);
+    background-size: cover;
+    background-position: center;
+    color: red;
+}
+
+.divthree {
+    grid-column-start: 7;
+    grid-column-end: 10;
+    background-image: url(https://www.karmatechnologies.asia/wp-content/uploads/2015/08/great-wall-of-china-wallpaper-11985-12520-hd-wallpapers.jpg.webp);
+    background-size: cover;
+    color: yellow;
+    background-position: center;
+
+}
+
+.divfour {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-image: url(https://www.mayuc.com/wp-content/uploads/2018/02/machu-picchu-adventure.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.divfive {
+    grid-column-start: 6;
+    grid-column-start: 8;
+    grid-row-start: auto;
+    background-image: url(http://3.bp.blogspot.com/-7x2P4Lf9kQs/TpJ9gm8LX6I/AAAAAAAAAsg/p2By10RnsDY/s1600/Petra+Jordan+wallpaper16.JPG);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.divsix {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    background-image: url(https://d36tnp772eyphs.cloudfront.net/blogs/1/2019/09/Taj-Mahal-1200x849.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.divseven {
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg/1200px-Colosseum_in_Rome%2C_Italy_-_April_2007.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-left: 6em;
+}
+
+li {
+    list-style-type: none;
+    text-underline-offset: none;
+    display: inline;
+    top: 5em;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: transparent;
+    border-style: groove;
+    white-space: normal;
+    
+    
+}
+
+body {
+    
+    background-color: black ;
+    width: 100%;
+    min-width: 1000px;
+    height: auto;
+    
+
+}
+
+
+.primary {
+    display: flex;
+    flex-grow: ;
+    order: -1;
+    flex-direction: column;
+}
+
+.secondary {
+    display: flex;
+    order: 1;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.tertiary {
+    display: flex;
+    order: 4;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+
+}
+
+
+
+
+.main-header {
+    text-align: center;
+    background: red;
+    padding: 1em;
+
+}
+
+.main-footer {
+    text-align: center;
+    padding: 2em;
+    background: royalblue;
+
+}
+
+@media (min-width: 769px) {
+    .main-header,
+    .main-footer,
+    .col
+    .row {
+        display: flex;
+    
+
+    }
+
+}
+
+@media (min-width: 1025px) {
+    .main-header {
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+    
+    .col {
+        flex-basis:
+
+    }
+
+}
